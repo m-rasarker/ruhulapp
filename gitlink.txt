@@ -1,0 +1,56 @@
+https://github.com/taufiqurSabbir/ostad_batch_10
+
+https://github.com/taufiqurSabbir/ostad_flutter_10.git
+
+git user name : m.rasarker77@gmail.com
+password: Ak77425g
+
+
+
+https://github.com/HasanJuned/Flutter--RestAPI--Firebase
+
+
+
+person git repository
+=======================
+
+https://github.com/m-rasarker/ostab_batch_10.git
+
+
+
+
+Git Configuratoin
+==============
+1. git config --global user.name "ruhul amin sarker"
+
+2. git config --global user.email "ruhul.amin@charteredlifebd.com"
+
+
+Git Command
+=================
+1. git status   (To Know the project which file is new of update after git post )
+
+2. git branch    (To know the git branch list under the repository and current branch name color will be blue color )
+
+3. git checkout -b moule_6    (To change current branch to new barnch moule_6 and module_6 will branch will created if it is not exist)
+
+4. git add .                   (To add all updated or new file to the current git branch)
+
+5. git commit -m "work with async"              (here "work with async" is the commited task description)
+
+6. git push orgin module_6                 (all commited file is push to the module_6 branch)
+
+
+
+
+
+
+
+
+
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/m-rasarker/ruhulapp.git
+git push -u origin main
