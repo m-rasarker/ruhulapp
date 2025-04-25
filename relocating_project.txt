@@ -1,0 +1,6 @@
+======== opening flutter command line terminal  use under the command =========
+
+
+PS C:\ruhul_app> flutter clean
+     
+PS C:\ruhul_app> flutter pub get     
