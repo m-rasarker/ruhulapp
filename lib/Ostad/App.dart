@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'Registration.dart';
 import 'flutter_class_1.dart';
 import 'flutter_class_2.dart';
 import 'form_login.dart';
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'batch 10 flutter',
       // home: LoginPage(),
-        home: FlutterClass2(),
+        home: Registration(),
 
     );
   }
