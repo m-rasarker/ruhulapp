@@ -3,6 +3,9 @@ import 'package:ruhul_app/Ostad//flutter_class_1.dart';
 import 'package:ruhul_app/Ostad//gridV.dart';
 import 'package:ruhul_app/Ostad/listview.dart';
 
+import 'ListViewBuilder.dart';
+import 'ListViewPractice.dart';
+import 'gridviewpractice.dart';
 import 'navi.dart';
 
 class LoginPage extends StatefulWidget {
@@ -24,8 +27,8 @@ class _LoginPageState extends State<LoginPage> {
         centerTitle: true,
         backgroundColor: Colors.cyan,
       ),
-      body: Center(
-        child: SingleChildScrollView(
+      body:
+        SingleChildScrollView(
             child: Column(
               mainAxisAlignment: MainAxisAlignment.start,
               children: [
@@ -117,6 +120,31 @@ class _LoginPageState extends State<LoginPage> {
                           }, child: Text('List')),
 
 
+
+                          // ruhul amin
+
+
+                       ElevatedButton(onPressed: (){
+                         // Navigator.push(context, MaterialPageRoute(builder: (builder)=> Listviewpractice()));
+
+                      //   Navigator.push(context, MaterialPageRoute(builder: (builder)=> Listviewbuilder()));
+                         Navigator.push(context, MaterialPageRoute(builder: (builder)=> gridviewPractice()));
+
+
+                       }, child: Text('List View ruhul')),
+
+                     ElevatedButton(onPressed: (){
+
+                       Navigator.pop(context);
+
+
+                     }, child: Text('List View Ruhul1 2')),
+
+
+
+
+                          // ruhul end practice
+
                           ElevatedButton(onPressed: (){
                             Navigator.push(
                               context,
@@ -126,7 +154,7 @@ class _LoginPageState extends State<LoginPage> {
                         ]))
               ],
             )),
-      ),
+
     );
   }
 }
