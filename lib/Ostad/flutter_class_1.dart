@@ -79,12 +79,7 @@ class Home extends StatelessWidget {
                     onPressed: () {
                       print("Item deleted");
                     },
-                    icon: Icon(Icons.delete),
-                ),
-
-
-
-
+                    icon: Icon(Icons.delete)),
                 TextButton(
                     onPressed: () {
                       print('Clicked me from text button');

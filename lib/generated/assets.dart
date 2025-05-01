@@ -36,5 +36,6 @@ class Assets {
   static const String imagesTimetable = 'assets/images/timetable.png';
   static const String imagesUser = 'assets/images/user.jpg';
   static const String imagesWarning = 'assets/images/warning.png';
+  static const String imagesYT = 'assets/images/YT.png';
 
 }

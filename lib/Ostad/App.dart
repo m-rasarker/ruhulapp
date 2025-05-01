@@ -13,8 +13,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'batch 10 flutter',
-      // home: LoginPage(),
-        home: Registration(),
+       home: LoginPage(),
+       // home: Registration(),
 
     );
   }

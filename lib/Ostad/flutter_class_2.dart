@@ -100,9 +100,6 @@ class FlutterClass2 extends StatelessWidget {
                 height: 20,
               ),
 
-
-
-
               ElevatedButton(onPressed: (){
                 phoneController.clear();
               }, child: Text('Clear')),

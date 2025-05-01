@@ -1,4 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:ruhul_app/Ostad//flutter_class_1.dart';
+import 'package:ruhul_app/Ostad//gridV.dart';
+import 'package:ruhul_app/Ostad/listview.dart';
+
+import 'navi.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({super.key});
@@ -24,6 +29,11 @@ class _LoginPageState extends State<LoginPage> {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.start,
               children: [
+                Image.asset(
+                  'assets/images/YT.png',
+                  height: 250,
+                  width: 250,
+                ),
                 Text('Login with your phone and password'),
                 SizedBox(
                   height: 20,
@@ -78,12 +88,41 @@ class _LoginPageState extends State<LoginPage> {
                               width: 300,
                               child: ElevatedButton(
                                   onPressed: () {
-                                    if(_formKey.currentState!.validate()){
+                                    if (_formKey.currentState!.validate()) {
                                       ScaffoldMessenger.of(context).showSnackBar(
                                         SnackBar(content: Text('Login Successful')),
+
                                       );
                                     }
-                                  }, child: Text('Login'))),
+
+                                    // Navigator.pushReplacement(
+                                    //   context,
+                                    //   MaterialPageRoute(builder: (context) => Navi(name: phoneController.text,)),
+                                    // );
+
+
+                                    Navigator.push(
+                                      context,
+                                      MaterialPageRoute(builder: (context) => Navi(name:'ytujt',)),
+                                    );
+
+                                  },
+                                  child: Text('Login'))),
+
+                          ElevatedButton(onPressed: (){
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(builder: (context) => ListV()),
+                            );
+                          }, child: Text('List')),
+
+
+                          ElevatedButton(onPressed: (){
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(builder: (context) => GridV()),
+                            );
+                          }, child: Text('Grid')),
                         ]))
               ],
             )),
