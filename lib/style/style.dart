@@ -21,6 +21,17 @@ const TextStyle textStyle = TextStyle(
 );
 
 
+const TextStyle textStylebold = TextStyle(
+
+  fontSize: 20,
+  color: Colors.black,
+  backgroundColor: Colors.green,
+  decoration: TextDecoration.none,
+  letterSpacing: 1.0,
+
+);
+
+
 // A function that returns a TextStyle
 TextStyle customTextStyle({
   double fontSize = 14.0,            // Default font size

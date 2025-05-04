@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../Pages/TestPage.dart';
+import '../Pages/class_2.dart';
 import 'Registration.dart';
 import 'flutter_class_1.dart';
 import 'flutter_class_2.dart';
@@ -10,10 +12,12 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return  MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'batch 10 flutter',
        home: LoginPage(),
+      //  home: TestPage(),
+      //  home:   class_2(),
        // home: Registration(),
 
     );

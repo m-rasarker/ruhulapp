@@ -1,6 +1,9 @@
 
 
 import 'package:flutter/material.dart';
+import 'package:ruhul_app/Pages/TestPage.dart';
+
+import '../Ostad/gridviewpractice.dart';
 
 class class_2 extends StatelessWidget {
   const class_2({super.key});
@@ -18,6 +21,79 @@ class class_2 extends StatelessWidget {
           foregroundColor: Colors.white
 
 
+      ),
+
+      body: Center(
+        child: Column(
+          children: [
+
+
+            ElevatedButton(onPressed: (){
+              Navigator.push(context, MaterialPageRoute(builder: (context)=> TestPage()));
+
+            }, child: Text('ListView')),
+
+            ElevatedButton(onPressed: (){
+              Navigator.pop(context);
+
+            }, child: Text('Back')),
+            
+            
+            Container(
+              height: 200,
+              width: 200,
+              decoration: BoxDecoration(
+                color: Colors.orange,
+                borderRadius: BorderRadius.all(Radius.circular(10)),
+                border: Border.all(color: Colors.red,width: 10)
+                
+                
+              ),
+            ),
+            Row(
+              children: [
+                Container(
+                  height: 200,
+                  width: 200,
+                  decoration: BoxDecoration(
+                      color: Colors.orange,
+                      borderRadius: BorderRadius.all(Radius.circular(10)),
+                      border: Border.all(color: Colors.red,width: 10)
+
+
+                  ),
+                ),
+                Container(
+                  height: 200,
+                  width: 180,
+                  decoration: BoxDecoration(
+                      color: Colors.orange,
+                      borderRadius: BorderRadius.all(Radius.circular(10)),
+                      border: Border.all(color: Colors.red,width: 10)
+
+
+                  ),
+                  child: TextFormField(
+
+                    decoration: InputDecoration(
+                      icon: Icon(Icons.phone),
+                      label: Text('Name'),
+                      hintText: 'Name',
+
+                    ),
+
+                  ),
+                ),
+
+              ],
+
+            )
+
+
+
+          ],
+
+        ),
       ),
 
 
