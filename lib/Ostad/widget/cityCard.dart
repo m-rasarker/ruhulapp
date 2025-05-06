@@ -22,11 +22,12 @@ class cityCard extends StatelessWidget {
             color: Colors.grey,
             offset: Offset(4, 4),
             blurRadius: 10,
+
           ),
         ],
       ),
       alignment: Alignment.center,
-      width: 300,
+      width: 250,
       child: Column(
         children: [
           Stack(children: [

@@ -3,6 +3,7 @@ import 'package:ruhul_app/Ostad//flutter_class_1.dart';
 import 'package:ruhul_app/Ostad//gridV.dart';
 import 'package:ruhul_app/Ostad/listview.dart';
 import 'package:ruhul_app/Ostad/statefull_class.dart';
+import 'package:ruhul_app/Ostad/widget/practice.dart';
 import 'package:ruhul_app/style/style.dart';
 
 import 'ListViewBuilder.dart';
@@ -133,7 +134,7 @@ class _LoginPageState extends State<LoginPage> {
                          Navigator.push(context, MaterialPageRoute(builder: (builder)=> gridviewPractice()));
 
                          Navigator.push(context, MaterialPageRoute(builder: (builder)=> SateFullClass()));
-
+                       //  Navigator.push(context, MaterialPageRoute(builder: (builder)=> Practice()));
 
                        }, child: Text('Statefull widget'),style: buttonStyle,),
 

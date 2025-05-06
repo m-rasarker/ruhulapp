@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:ruhul_app/Ostad/widget/practice.dart';
 
 import '../Pages/TestPage.dart';
 import '../Pages/class_2.dart';
@@ -15,7 +16,9 @@ class MyApp extends StatelessWidget {
     return  MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'batch 10 flutter',
-       home: LoginPage(),
+      // home: LoginPage(),
+        home: Practice(),
+
       //  home: TestPage(),
       //  home:   class_2(),
        // home: Registration(),
