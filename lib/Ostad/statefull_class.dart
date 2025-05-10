@@ -59,7 +59,7 @@ class _SateFullClassState extends State<SateFullClass> {
                     TextStyle(
                       fontSize: 40,
                       color: Colors.white,
-                    ),),style: buttonStyle,)),
+                    ),))),
                 SizedBox(width: 10,),
                 SizedBox(
                     width: 180,
@@ -73,7 +73,7 @@ class _SateFullClassState extends State<SateFullClass> {
                     }, child: Text('-',style: TextStyle(
                       fontSize: 40,
                       color: Colors.white,
-                    ),),style: buttonStyle,)),
+                    ),))),
               ],
             ),
 

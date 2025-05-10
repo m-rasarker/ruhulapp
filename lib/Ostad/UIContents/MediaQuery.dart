@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-class ModuleMedia extends StatelessWidget {
-  const ModuleMedia({super.key});
+class Mediaquery extends StatelessWidget {
+  const Mediaquery({super.key});
 
   @override
   Widget build(BuildContext context) {

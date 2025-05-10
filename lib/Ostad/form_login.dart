@@ -136,7 +136,7 @@ class _LoginPageState extends State<LoginPage> {
                          Navigator.push(context, MaterialPageRoute(builder: (builder)=> SateFullClass()));
                        //  Navigator.push(context, MaterialPageRoute(builder: (builder)=> Practice()));
 
-                       }, child: Text('Statefull widget'),style: buttonStyle,),
+                       }, child: Text('Statefull widget')),
 
                      ElevatedButton(onPressed: (){
 
