@@ -30,7 +30,7 @@ class TestPage extends StatelessWidget {
         
           children: [const Padding(
             padding: EdgeInsets.all(8.0),
-            child: TextField(decoration: InputDecoration(labelText: 'name',hintText: 'Name'),style: textStyle,),
+            child: TextField(decoration: InputDecoration(labelText: 'name',hintText: 'Name')),
           ),
             const Padding(
               padding: EdgeInsets.all(8.0),
@@ -51,7 +51,7 @@ class TestPage extends StatelessWidget {
             ),
         
              ElevatedButton(
-              style: buttonStyle,
+
               onPressed: () {
                 // Do something when the button is pressed
                 print("Button Pressed!");
@@ -60,7 +60,7 @@ class TestPage extends StatelessWidget {
             ),
             SizedBox(height: 10,),
 
-            ElevatedButton(onPressed: (){}, child: const Text('Update'),style: buttonStyle,),
+            ElevatedButton(onPressed: (){}, child: const Text('Update')),
 
             SizedBox(height: 10,),
 

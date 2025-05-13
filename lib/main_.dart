@@ -128,7 +128,7 @@ class MyHomepage extends StatelessWidget {
               width: mediaWidth/2-2,
 
               padding: EdgeInsets.all(6.0),
-              child: const TextField(decoration: InputDecoration(border: OutlineInputBorder(),labelText: 'Closing From'), style: textStyle,),
+              child: const TextField(decoration: InputDecoration(border: OutlineInputBorder(),labelText: 'Closing From'),),
 
             ),
             Container(
@@ -151,7 +151,7 @@ class MyHomepage extends StatelessWidget {
           Container(
             width: mediaWidth,
             padding: const EdgeInsets.all(10),
-            child: ElevatedButton(onPressed: (){}, child: const Text('Save'),style: buttonStyle,)
+            child: ElevatedButton(onPressed: (){}, child: const Text('Save'),)
 
 
 
@@ -163,10 +163,7 @@ class MyHomepage extends StatelessWidget {
                  width: mediaWidth,
                  padding: const EdgeInsets.all(10),
                  child: ElevatedButton(onPressed: (){}, child: const Text('Save'),
-                   style: customButtonStyle(
-                   backgroundColor: Colors.orange,
-                   borderRadius: 10.0,
-                 ),
+
                  )
 
 
