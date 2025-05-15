@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
-
-
-class Practice extends StatelessWidget {
-  const Practice({super.key});
+class stack extends StatelessWidget {
+  const stack({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -17,9 +15,9 @@ class Practice extends StatelessWidget {
           child: Container(
             margin: EdgeInsets.all(10),
             height: 250,
-          
+
             padding: EdgeInsets.all(10),
-          
+
             decoration: BoxDecoration(
               color: Colors.white,
               borderRadius: BorderRadius.circular(20),
@@ -28,7 +26,7 @@ class Practice extends StatelessWidget {
                   color: Colors.grey,
                   offset: Offset(4, 4),
                   blurRadius: 10,
-          
+
                 ),
               ],
             ),

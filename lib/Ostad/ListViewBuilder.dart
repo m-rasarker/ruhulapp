@@ -14,8 +14,10 @@ class Listviewbuilder extends StatelessWidget {
           return Card(
             shadowColor: Colors.red,
             elevation: 10,
+
             shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(10),
+
             ),
             child: ListTile(
               leading: Icon(Icons.phone),

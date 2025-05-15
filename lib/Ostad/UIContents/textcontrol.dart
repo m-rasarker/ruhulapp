@@ -1,10 +1,9 @@
-
-
 import 'package:flutter/material.dart';
-import 'package:ruhul_app/function/function.dart';
 
-class Containerpage extends StatelessWidget {
-  const Containerpage({super.key});
+import '../../function/function.dart';
+
+class textControl extends StatelessWidget {
+  const textControl({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -22,14 +21,8 @@ class Containerpage extends StatelessWidget {
               decoration: BoxDecoration(
                   color: Colors.white,
                   border: Border.all(width: 10,color: Colors.blue),
-                  borderRadius: BorderRadius.all(Radius.circular(15)),
-                  boxShadow: [BoxShadow(
-                      color: Colors.orange,
-                      offset: Offset(5,5),
-                      blurRadius: 5)
-                  ]
+                  borderRadius: BorderRadius.all(Radius.circular(15))
               ),
-
               child: const Padding(
                 padding: EdgeInsets.all(8.0),
                 child: TextField(

@@ -6,6 +6,7 @@ class Navi extends StatelessWidget {
   final String  ? address;
   const Navi({super.key, required this.name, this.address});
 
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
