@@ -13,6 +13,7 @@ class ListV extends StatelessWidget {
         itemCount: 50,
         itemBuilder: (context,index){
           return Card(
+
             child: ListTile(
               leading: Icon(Icons.phone),
               trailing: Icon(Icons.delete),

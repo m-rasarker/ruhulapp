@@ -16,7 +16,8 @@ import 'function/function.dart';
 void main() {
   runApp(
       DevicePreview(
-        enabled: true,
+        enabled: false,
+       // enabled: true,
         builder: (context)=> const MyApp(),
       )
   );

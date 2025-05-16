@@ -6,6 +6,7 @@ import '../Pages/TestPage.dart';
 import '../Pages/class_2.dart';
 import 'Registration.dart';
 import 'Responsive.dart';
+import 'assignRuhul.dart';
 import 'flutter_class_1.dart';
 import 'flutter_class_2.dart';
 import 'form_login.dart';
@@ -30,7 +31,9 @@ class MyApp extends StatelessWidget {
           home: child,
         );
       },
-      child: const Responsive(),
+   //   child: const Responsive(),
+        child: const assignRuhul(),
+
     );
   }
 
