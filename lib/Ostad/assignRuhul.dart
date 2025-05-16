@@ -6,8 +6,8 @@ class assignRuhul extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     double screenSize = MediaQuery.of(context).size.width;
-    int spil = screenSize > 1024 ? 4 : screenSize > 600 ? 3: 2;
-    String sreentxt = screenSize > 1024 ? 'Desktop/Web Size (Pixel Size > 1024)' : screenSize > 600 ? 'Tablet size (Pixel Size > 600)': 'Mobile Size (Pixel Size <=600)';
+    int spil = screenSize > 1024 ? 4 : screenSize > 768 ? 3: 2;
+    String sreentxt = screenSize > 1024 ? 'Desktop/Web Size (Pixel Size > 1024)' : screenSize > 768 ? 'Tablet size (Pixel Size > 768)': 'Mobile Size (Pixel Size <=768)';
     List<String> cname = ['Djibouti','Guinea', 'Egypt','Cameroon','Mauritania','Turky'];
     List<String> cflag = ['assets/images/Djibouti.png','assets/images/Guinea.png', 'assets/images/Egypt.png','assets/images/Cameroon.png','assets/images/Mauritania.png','assets/images/Turkey.png'];
 
