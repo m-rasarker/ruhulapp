@@ -9,6 +9,7 @@ class Assets {
   static const String imagesBadgeCrown = 'assets/images/badge_crown.png';
   static const String imagesBadgeGoal = 'assets/images/badge_goal.png';
   static const String imagesBangladesh = 'assets/images/bangladesh.png';
+  static const String imagesBenin = 'assets/images/Benin.png';
   static const String imagesBrazil = 'assets/images/Brazil.png';
   static const String imagesBusinessReport = 'assets/images/business_report.png';
   static const String imagesCalculator = 'assets/images/calculator.png';
@@ -24,6 +25,7 @@ class Assets {
   static const String imagesHome = 'assets/images/home.png';
   static const String imagesInsurancePlan = 'assets/images/insurance_plan.png';
   static const String imagesInsurancePolicyList = 'assets/images/insurance_policy_list.png';
+  static const String imagesKenya = 'assets/images/Kenya.png';
   static const String imagesLapseList = 'assets/images/lapse_list.png';
   static const String imagesMauritania = 'assets/images/Mauritania.png';
   static const String imagesOnlinePay = 'assets/images/online_pay.png';

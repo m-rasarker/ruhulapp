@@ -31,7 +31,7 @@ class MyApp extends StatelessWidget {
           home: child,
         );
       },
-   //   child: const Responsive(),
+    //  child: const Responsive(),
         child: const assignRuhul(),
 
     );
