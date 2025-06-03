@@ -18,6 +18,7 @@ class assignRuhul extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(title: Text('Ruhul Amin, Asssignment'),),
       body: Column(
+
         children: [
           Text('$sreentxt',style: TextStyle(fontSize: 10.sp),),
           SizedBox(height: 10,),
@@ -35,22 +36,35 @@ class assignRuhul extends StatelessWidget {
                 itemBuilder: (contex,index){
                   return Card(
                     child: Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
+
                       children: [
+
                         Image.asset(cflag[index],width: screenSize/spil, height: screenSize/spil*imgheight),
 
                         Text(cname[index], style: TextStyle(fontSize: 8.sp),),
-                        ElevatedButton(onPressed: (){}, style: ElevatedButton.styleFrom(
-                            backgroundColor: Colors.white10,
-                            shape: RoundedRectangleBorder(
-                              borderRadius: BorderRadius.circular(10), // Adjust the radius as needed
-                            )), child: Row(
-                          children: [Expanded(child: Text('For Details',style: TextStyle(color: Colors.black, fontSize: 8.sp),)),
 
-                            // Icon(Icons.arrow_circle_right)
-                            //  Icon(Icons.keyboard_arrow_right_sharp)
-                            Icon(Icons.keyboard_double_arrow_right)
-                          ],
-                        ) ),
+
+
+                           ElevatedButton(onPressed: (){}, style: ElevatedButton.styleFrom(
+                              backgroundColor: Colors.white10,
+
+                              shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(10), // Adjust the radius as needed
+                              )), child: Row(
+                            children: [
+                             Expanded(child: Padding(
+                               padding: const EdgeInsets.all(8.0),
+                               child: Text('For Details',style: TextStyle(color: Colors.black, fontSize: 8.sp),),
+                             )),
+
+
+                              // Icon(Icons.arrow_circle_right)
+                              //  Icon(Icons.keyboard_arrow_right_sharp)
+                              Icon(Icons.arrow_forward)
+                            ],
+                          ) ),
+
                       ],
 
                     ),

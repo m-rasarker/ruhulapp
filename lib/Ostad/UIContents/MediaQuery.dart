@@ -2,9 +2,11 @@ import 'package:flutter/material.dart';
 class Mediaquery extends StatelessWidget {
   const Mediaquery({super.key});
 
+
   @override
   Widget build(BuildContext context) {
     Size screenSize = MediaQuery.of(context).size;
+
     // double screenWidth = MediaQuery.of(context).size.width;
     double fontSize = screenSize.width > 600 ? 32 : 18;
     double pexelRatio = MediaQuery.of(context).devicePixelRatio;

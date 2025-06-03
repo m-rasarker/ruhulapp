@@ -11,6 +11,7 @@ class Mobileresposive extends StatelessWidget {
       appBar: AppBar(title: Text('Mobile Responsive'),),
 
       body: SingleChildScrollView(
+
         child: Padding(
           padding: const EdgeInsets.all(10.0),
           child: Column(

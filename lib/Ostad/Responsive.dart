@@ -25,6 +25,9 @@ class Responsive extends StatelessWidget {
                   Expanded(child: ElevatedButton(onPressed: (){}, child: Text('Delete'))),
                 ],
               ),
+
+
+
               SizedBox(height: 5,),
               Row(
                 children: [
@@ -143,6 +146,8 @@ class Responsive extends StatelessWidget {
                  ),
 
             ],
+
+
 
         
           ),
