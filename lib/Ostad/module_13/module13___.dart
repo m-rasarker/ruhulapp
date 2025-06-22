@@ -14,15 +14,15 @@ class _Module13State extends State<Module13> {
   bool isLoading =false;
   Future<void>fetchData() async {
     try{
-      setState(() {
-        isLoading=true;
-      });
+      // setState(() {
+      //   isLoading=true;
+      // });
       await productcontroller.fetchProducts();
-      if (!mounted){
-        return;
-      }
-      setState(() {
-      });
+      // if (!mounted){
+      //   return;
+      // }
+      // setState(() {
+      // });
     }
     catch(err){
       ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(err.toString())));
@@ -171,13 +171,8 @@ class _Module13State extends State<Module13> {
                                 isupdate
                             ).then((value) async {
                               if (value) {
-
-                                fetchData();
-                               // await productcontroller.fetchProducts();
-                                setState(() {
-
-                                });
-
+                                await productcontroller.fetchProducts();
+                                setState(() {});
                                 ScaffoldMessenger.of(context).showSnackBar(
                                     SnackBar(
                                       content: Text(isupdate
@@ -185,9 +180,6 @@ class _Module13State extends State<Module13> {
                                           : 'Product Created'),
                                       duration: Duration(seconds: 2),
                                     ));
-
-
-
                               } else {
                                 ScaffoldMessenger.of(context).showSnackBar(
                                     SnackBar(
