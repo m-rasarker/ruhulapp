@@ -124,7 +124,7 @@ class FlutterClass2 extends StatelessWidget {
                         blurRadius: 15,
                       ),
                     ]),
-                child: Center(
+                child: const Center(
                   child: Column(
                     children: [
                       Text(
@@ -143,6 +143,7 @@ class FlutterClass2 extends StatelessWidget {
                       ),
                       Text(
                         'This is container',
+
                         style: TextStyle(
                           fontSize: 20,
                           color: Colors.white,

@@ -15,6 +15,8 @@ MySnackBar(message,context)
 
 
 
+
+
 Future<DeviceInfo> getDeviceInfo() async {
   final deviceInfoPlugin = DeviceInfoPlugin();
 
@@ -52,3 +54,6 @@ void getDeviceInfoFunction() async {
   print(device.osVersion);
 
 }
+
+
+

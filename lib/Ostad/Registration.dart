@@ -10,7 +10,9 @@ class Registration extends StatefulWidget {
 
 class _RegistrationState extends State<Registration> {
   final _formKey = GlobalKey<FormState>();
+
   TextEditingController textEditingController = TextEditingController();
+
 
   @override
   Widget build(BuildContext context) {
@@ -47,6 +49,19 @@ class _RegistrationState extends State<Registration> {
                   },
 
                 ),
+               TextFormField(
+
+                 keyboardType: TextInputType.emailAddress,
+                 decoration: InputDecoration(
+                   hintText: 'Ruhul amin',
+                   label: Text('Name'),
+
+
+
+                 ),
+               ),
+
+
 
                 TextFormField(
                   keyboardType: TextInputType.emailAddress,

@@ -15,6 +15,10 @@ class ListV extends StatelessWidget {
           return Card(
 
             child: ListTile(
+              shape: RoundedRectangleBorder(
+                side: BorderSide(color: Colors.blue, width: 2),
+                borderRadius: BorderRadius.circular(8),
+              ),
               leading: Icon(Icons.phone),
               trailing: Icon(Icons.delete),
               title: Text("Taufiq"),
