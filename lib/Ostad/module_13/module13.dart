@@ -233,7 +233,7 @@ class _Module13State extends State<Module13> {
           gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
             crossAxisCount: 2,
             crossAxisSpacing: 10,
-            mainAxisSpacing: 10,
+            mainAxisSpacing: 20,
            // mainAxisExtent: 180,
             childAspectRatio: 0.6,
           ),
